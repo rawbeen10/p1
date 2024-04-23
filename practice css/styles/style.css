@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+body {
+    font-family: 'Rowdies', 'cursive';
+    background-image: url(https://i.pinimg.com/564x/96/45/a7/9645a78b04c278af0c405dc76eb3c6d5.jpg);
+    background-repeat: none;
+    background-blend-mode:darken;
+    margin-left: 0%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not( .active) {
+    background-color: #111;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  ul {
+    position:fixed;
+    top: 0;
+    width:100%;
+}
+  
+
+ 
+
+
+h1 {
+    color: green;
+}
+#pp {
+    color: red;
+}
+#pp:hover{
+    color: aqua;
+    box-shadow: 2px 2px 2px 2px rgba(11,71,191,1);
+    width: 400;
+}
+h1 a {
+    color: red;
+}
+h2 a:hover{
+    color: orangered;
+}
+
+.car {
+    border-radius:15px 200px 15px 200px;
+    box-shadow: 20px 20px 20px 20px rgb(71, 69, 69);
+   
+}
+.car:hover{
+    box-shadow: -7px 7px 50px 14px rgba(11,71,191,1);
+}
+
+.lambo{
+    box-shadow: 10px 20px rgb(95, 95, 212);
+}
+
+.ferrari {
+    box-shadow: 10px 20px rgb(88, 0, 0);
+}
+
